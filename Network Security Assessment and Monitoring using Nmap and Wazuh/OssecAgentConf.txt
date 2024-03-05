@@ -1,0 +1,6 @@
+<!-- Run nmap python script -->
+  <localfile>
+    <log_format>full_command</log_format>
+    <command>C:\Users\<USERNAME>\Documents\nmapscan.exe</command>
+    <frequency>604800</frequency>
+  </localfile>

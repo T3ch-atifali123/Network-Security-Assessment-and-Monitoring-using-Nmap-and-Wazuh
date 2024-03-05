@@ -1,0 +1,9 @@
+<group name="linux,nmap,">
+  <rule id="100100" level="3">
+    <decoded_as>json</decoded_as>
+    <field name="nmap_port">\.+</field>
+    <field name="nmap_port_service">\.+</field>
+      <description>NMAP: Host scan. Port $(nmap_port) is open and hosting the $(nmap_port_service) service.</description>
+    <options>no_full_log</options>
+  </rule>
+</group>
